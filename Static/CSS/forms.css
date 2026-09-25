@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#myform{
+    border: 1px solid purple;
+    padding: 20px;
+    border-radius: 3px;
+    width: 300px;
+    margin: auto;
+}
+#hello{
+    text-align: center;
+    color: blue;
+}
+label{
+    display: block;
+    font-weight: bolder;
+}
+input,textarea{
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+input[type=submit]{
+    background-color: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+input[ type=submit]hover{
+    background-color: blue;
+}

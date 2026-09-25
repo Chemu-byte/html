@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace
+}
+header{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+nav a :hover{
+    background-color: red;
+    color: goldenrod;
+}
+main{
+    max-width: 800px;
+    margin: 10px auto;
+}
+section{
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+.container{
+    background-color:white;
+    display: flex;
+    gap: 10px;
+}
+.services{
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: azure;
+    box-shadow: 0 0 10px gray;
+    flex: 1;
+}
+form{
+    
+}
+#footer{
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+}
+#contact{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
