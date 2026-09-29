@@ -1,0 +1,19 @@
+#head{
+     color:blue;
+    animation:myanimation 3s 5;
+}
+@keyframes myanimation{
+    from{
+        color:red;
+        transform:translateX(0px)
+    }
+    to{
+        color:yellow;
+        transform:translateX(400px)
+    }
+    
+
+    
+
+
+    
